@@ -64,3 +64,138 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+* {
+    box-sizing: border-box;
+}
+.everything {
+
+
+	width:876px;
+  margin: 0 auto;
+
+
+}
+
+
+ .everything header{
+  display:flex;
+  
+  justify-content:space-between; 
+  
+}
+
+.everything header nav{
+	margin-top:20px;
+	align-self:center;
+}
+.everything header nav a{
+	margin-right:55px;
+	text-decoration:none;
+	color:gray;
+}
+
+.everything .logo{
+	margin-top:25px;
+}
+
+.innovate{
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	width:876px;
+	height:540px;
+	
+	align-items:center;
+}
+
+.innovate h1{
+	font-size:72px;
+	width:300px;
+	height:150px;
+	padding-right:20px;
+	text-align:center;
+	margin-top:130px;
+	margin-left:60px;
+	
+}
+
+.innovate .started{
+	margin-top:70px;
+	margin-left:30px;
+	border:1px solid black;
+	width:175px;
+	height:35px;
+	text-align:center;
+	padding-top:8px;
+	font-size:16px;
+	
+}
+
+
+.innovate .logo2{
+	width:379px;
+	height:379px;
+	margin-top:70px;
+	align-self:flex-end;
+	
+
+}
+
+.top{
+	border-top:1px solid black;
+	display:flex;
+	margin-botto
+}
+
+.top2 h1{
+	margin-top:30px;
+	
+}
+.top2 h2{
+	margin-top:30px;
+}
+
+.middle-img{
+	margin-top:40px;
+}
+.bot {
+	display:flex;
+	justify-content: space-between;
+	
+}
+
+.bot h1{
+	margin-top:30px;
+}
+
+.bot p{
+	padding-right:16px;
+}
+
+.contact{
+	margin-top:35px;
+	border-top:2px solid black;
+}
+
+.contact h1{
+	
+	margin-top:30px;
+	
+}
+
+.contact .first{
+	width:220px;
+}
+
+.contact .second{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+footer{
+	text-align:center;
+	margin-top:30px;
+	margin-bottom:30px;
+}
